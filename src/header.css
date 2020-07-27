@@ -1,0 +1,120 @@
+
+.container{
+    width: 1170px;
+    width:80%;
+    margin: 0 auto;
+  }
+  .logo{
+      display: flex;
+      align-items: center;
+  }
+  .navbar{
+    margin-top: 20px;
+    
+  }
+  
+  .navbar__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar__menu{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .navbar__logo-text{
+      margin-left: 8px;
+      font-weight: 700;
+      color:#035755;
+      
+  }
+
+  .navbar__list{
+      list-style:none;
+        }
+
+  .navbar__item{
+      display: inline-block;
+  }
+
+  .navbar__link{
+    text-decoration: none;
+    color: #035755;
+    padding: 10px;
+  }
+
+  .navbar__link:active{
+    color: #FB4C47;
+  }
+  .navbar__item:active{
+      color: #FB4C47;
+  }
+
+  .navbar__button{
+      border: 2px solid #FB4C47;
+      padding: 8px 20px 8px 20px;
+      border-radius: 25px;
+      background-color: transparent;
+      color: #FB4C47;
+      outline:none;
+      margin-left: 15px;
+      font-weight: 700;
+  }
+
+  .hamburger{
+    visibility: hidden;
+  }
+
+  @media screen and (max-width:768px){
+    .line{
+        width: 30px;
+        height: 3px;
+        background: #000;
+        margin: 5px;
+    }
+    /* .nav{
+      position: relative;
+  } */
+
+  .hamburger{
+        visibility: visible;
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+        padding: 9px;
+        border-radius: 50%;
+        box-shadow: 0 1rem 50px rgba(255, 137, 134, 0.4);
+        cursor: pointer;
+  }
+
+    .navbar__menu{
+        display:none;
+        background: #ffbfbe;
+        position: absolute;
+        top:70px;
+        flex-direction: column;
+        pointer-events: none;
+        right: 0;
+    }
+
+    .navbar__item {
+      display: inline-block;
+      width: 100%;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+      .hamburger:focus-visible + .navbar__menu{
+        display: block;
+        background: #ffbfbe;
+        position: absolute;
+        top:70px;
+        flex-direction: column;
+        pointer-events: none;
+        right: 0;
+        }
+
+    }

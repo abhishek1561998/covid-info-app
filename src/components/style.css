@@ -1,0 +1,486 @@
+
+/* overview__section css start here */
+
+.overview__section{
+    background: url('../img/header-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    width: 100%;
+}
+
+@media screen and (max-width:768px){
+    .hero-section-right {
+        max-width: 100%;
+        position: relative;
+        top: 10px;
+        background-size: cover;
+        right: 0;
+    }
+
+    .hero-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero-section-left {
+        max-width: 100%!important;
+        padding: 30px!important;
+    }
+
+    .hero-section-right {
+        max-width: 100%!important;
+        position: relative;
+        top: 10px;
+        background-size: cover;
+        right: 0;
+        object-fit: cover;
+    }
+
+    .hero-section-right > img {
+        object-fit: cover;
+    }
+
+    .hero-section-left {
+        object-fit: cover;
+    }
+    .hero-about-section-left {
+        padding: 0px;
+        max-width: 100%!important;
+        margin-bottom: -141px;
+    }
+    .hero-about-section-right {
+        max-width: 100%!important;
+        padding: 30px;
+    }
+
+    .Contagion__row_icon_box {
+        display: flex;
+        padding: 10%;
+        flex-direction: column;
+    }
+
+    .Contagion__icon_box {
+        text-align: center;
+        padding: 30px 20px 50px 20px!important;
+        transition: all ease-in-out 0.3s;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px #ccc5c5!important;
+        margin: 5px!important;
+        width: auto!important;
+    }
+    .contagion__discription {
+        font-size: 16px;
+        text-transform: capitalize;
+        margin-top: 20px;
+        color: #4B4F51;
+        line-height: 2rem;
+        padding: 20px!important;
+    }
+    .Contagion__row_icon_box {
+        display: flex;
+        padding: 30px!important;
+    }
+
+    .symptomps__img_section {
+        padding: 2px!important;
+        margin-top: -24px!important;
+    }
+}
+
+.hero-section__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-section-left{
+    max-width: 50%;
+    padding: 135px;
+}
+.hero-section-right {
+    max-width: 50%;
+    position: relative;
+    top: 10px;
+    background-size: cover;
+    right: 0;
+}
+
+
+.hero__sub-heading{
+    color:#FB4C47;
+    font-size: 20px;
+}
+
+.hero__main-heading{
+    margin-top: 5px;
+    color: #035755;
+    text-transform: capitalize;
+}
+
+.hero__discription{
+    font-size: 16px;
+    margin-top: 20px;
+    color: #4B4F51;
+    line-height: 2rem;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.hero__button{
+    margin-top: 20px;
+    border: 2px solid #FB4C47;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    background-color: #FB4C47;
+    color: #fff;
+    outline:none;    
+    font-weight: 700;
+}
+/* about section css start here */
+
+.about__section{
+    background: url('../img/about-section-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    width: 100%;
+    margin-top: 0;
+}
+
+.hero-about-section-left{
+    max-width: 50%;
+    padding: 0px;
+
+}
+
+.hero-about-section-right{
+    max-width: 50%;
+    padding: 30px;
+}
+
+/* contagion Component css start here */
+
+.Contagion__section{
+    background: url('../img/Contagion_section_bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    width: 100%;
+    margin-top: 0;
+}
+
+.Contagion__heading_section{
+    text-align: center;
+}
+
+.contagion__sub_heading{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #FA5652;
+    
+}
+
+.contagion__main_heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 124%;
+    text-align: center;
+    color: #035755;
+    
+}
+
+.contagion__discription{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    color: #4B4F51;
+    line-height: 2rem;
+}
+
+.Contagion__row_icon_box{
+    display: flex;  
+    padding: 0 80px 0 80px; 
+}
+
+.Contagion__icon_box{
+    text-align: center;
+    padding: 70px 20px 70px 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #bf9c9c91;
+    margin: 30px;
+    width: 33.3%;
+}
+.Contagion__icon_box:focus,
+.Contagion__icon_box:active{
+    border-bottom: 3px solid #FA5652;
+}
+
+.Contagion__icon_box:hover{
+    border-bottom: 3px solid #FA5652;
+}
+
+.Contagion__icon{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    position: relative;
+}
+
+.contagion__box_heading{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #035755;
+}
+
+.contagion__box_description{
+    margin-top: 10px;
+    color: #4B4F51;
+    line-height: 2rem;
+}
+
+/* symptomps section css start here */
+
+
+.symptomps__section{
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    width: 100%;
+}
+
+.symptomps__img_section{
+    padding: 30px;
+    margin-top: -180px;
+}
+
+/* prevention section css start here  */
+
+.prevention__section{
+    background: url('../img/Virus.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    width: 100%;
+    margin-top: 0;
+}
+
+.prevention__heading_section{
+    text-align: center;
+}
+
+.prevention__sub_heading{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #FA5652;
+    font-weight: 700;
+}
+
+.prevention__main_heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 3rem;
+    text-align: center;
+    color: #035755;
+    text-transform: capitalize;
+    
+}
+
+.prevention__main_discription{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    color: #4B4F51;
+    line-height: 2rem;
+}
+
+
+.prevention__section__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prevention__section__flex2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.prevention__count{
+    color: #FA5652;
+    background: #FA56522E;
+    padding: 6px;
+    border-radius: 30px;
+    margin-right: 28px;
+    }
+
+   .prevention__heading{
+       color: #035755;
+   } 
+
+   .prevention__discription {
+        font-size: 16px;
+        margin-top: 20px;
+        color: #4B4F51;
+        line-height: 2rem;
+        text-transform: capitalize;
+        text-align: justify;
+        width: 70%;
+        margin-left: 10%;
+   }
+
+
+   .prevention__left{
+       margin-left: 10%;
+   }
+
+
+   @media screen and (max-width:768px){
+        .prevention__section__flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+        .prevention__section__flex2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .prevention__discription {
+            font-size: 16px;
+            margin-top: 20px;
+            color: #4B4F51;
+            line-height: 2rem;
+            text-transform: capitalize;
+            text-align: justify;
+            width: 100%!important;
+            margin-left: 0!important;
+        }
+
+        .prevention__left {
+            margin-left: 0!important;
+        }
+
+        .prevention__heading {
+            color: #035755;
+            margin-top: 50px;
+        }
+
+       
+   }
+
+
+   /* map section */
+
+   .map_section{
+    background: url('../img/Map_section.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    width: 100%;
+    margin-top: 0;
+}
+
+.contact__section{
+    background: url('../img/about-section-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    width: 100%;
+    margin-top: 0;
+}
+
+.contact__section{
+    margin-top: 40px;
+}
+
+.contact__heading_section{
+    text-align: center;
+    color: #0C6C44;
+}
+
+
+.contact__form{
+    width: 30%;
+    margin: 0px auto;
+    display: flex;
+    padding: 6px;
+    background: #FFF;
+    box-shadow: 0px 8px 80px rgba(0, 0, 0, 0.06);
+    border-radius: 57px;
+    align-items: center;
+}
+
+.contact__form_Input > input{
+    border: none;
+    margin-left: 5px;
+}
+.contact__button{
+    background: #f44a45;
+    padding: 19px;
+    border: navajowhite;
+    border-radius: 30px;
+    position: relative;
+    right: -30%;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width:768px){ 
+    .contact__form {
+        width: 80%!important;
+        margin: 0px auto;
+        display: flex;
+        padding: 6px;
+        background: #FFF;
+        box-shadow: 0px 8px 80px rgba(0, 0, 0, 0.06);
+        border-radius: 57px;
+        align-items: center;
+    }
+
+    .contact__button {
+        background: #f44a45;
+        padding: 19px;
+        border: navajowhite;
+        border-radius: 30px;
+        position: relative;
+        right: 3%!important;
+        color: #fff;
+        font-weight: 700;
+    }
+}

@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './header';
+import Overview from './components/Overview.jsx';
+import About from './components/About.jsx';
+import Contagion from './components/Contagion.jsx';
+import Symptomps from './components/Symptoms.jsx';
+import Prevention from './components/Prevention.jsx';
+import Livereport from './components/Live_report.jsx';
+import Contact from './components/Contact.jsx';
+import Footer from './components/Footer.jsx';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+        {/* this component is header section for application */}
+        <Header />
+        <Overview />
+        <About />
+        <Contagion/>
+        <Symptomps />
+        <Prevention/>
+        <Livereport />
+        <Contact/>
+        <Footer/>
     </div>
   );
 }
